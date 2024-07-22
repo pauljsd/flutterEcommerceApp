@@ -1,0 +1,110 @@
+name: ecommerce
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+#--------Packages--------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages #
+  http: ^1.1.0
+  intl: 0.18.1
+  logger: ^2.0.1
+  lottie: ^2.7.0
+  shimmer: ^3.0.0
+  image_picker: ^1.0.4
+  url_launcher: ^6.1.12
+  connectivity_plus: ^5.0.1
+  flutter_native_splash: ^2.3.2
+  smooth_page_indicator: ^1.1.0
+
+
+  #firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.13.1
+  firebase_storage: ^11.5.4
+  # I added this oo #
+  firebase_app_check: ^0.2.1+5
+
+
+  # Icons #
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+
+  # State Management #
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # Product Specifics
+
+  #---------Packages Ends ----------#
+  readmore: ^2.2.0
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+  google_sign_in: ^6.2.1
+  cached_network_image: ^3.3.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # Local Assets #
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/on_boarding_images/
+    - assets/images/animations/
+    - assets/icons/categories/
+    - assets/images/banners/
+    - assets/images/products/
+    - assets/images/user/
+    - assets/images/reviews/
+    - assets/icons/payment_methods/
+    - assets/images/success/
+
+  #  ---- Local Fonts ---- #
+#  fonts:
+#    - family: Poppins
+#      fonts:
+#        - asset: assets/fonts/Poppins-Light.ttf
+#          weight: 300
+#        - asset: asset/fonts/Poppins-Regular.ttf
+#          weight: 400
+#        - asset: asset/fonts/Poppins-Italic.ttf
+#          style: italic
+#        - asset: asset/fonts/Poppins-MediumItalic.ttf
+#          weight: 500
+#          style: italic
+#        - asset: asset/fonts/Poppins-SemiBold.ttf
+#          weight: 600
+#        - asset: asset/fonts/Poppins-Bold.ttf
+#          weight: 800
+
+
+
+
+
+
+
+
+
