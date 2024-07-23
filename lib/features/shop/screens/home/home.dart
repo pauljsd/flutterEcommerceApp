@@ -99,6 +99,8 @@ class HomeScreen extends StatelessWidget {
                       height: PSizes.spaceBtwItems / 4,
                     ),
 
+
+
                     //Popular Product
                     Obx(() {
                       if (controller.isLoading.value)
@@ -110,18 +112,6 @@ class HomeScreen extends StatelessWidget {
                                 'No Data Data Found baawo, we gather know say products choke for db na bros',
                                 style: Theme.of(context).textTheme.bodyMedium));
                       }
-                      // {
-                      //   controller.featuredProducts.add(ProductModel(
-                      //     id: '1',
-                      //     title: 'Default Product',
-                      //     stock: 10,
-                      //     price: 99.99,
-                      //     thumbnail:
-                      //         'https://media.istockphoto.com/id/1265024528/photo/no-better-adventure-buddy.webp?b=1&s=170667a&w=0&k=20&c=r1gm-6gd6n6qr9yjkVsXf7E0ku2sNfmCAW54kYZSdFQ=',
-                      //     productType: ProductType.single.toString(),
-                      //     description: 'Default Product Description',
-                      //   ));
-                      // }
 
                       return PGridLayout(
                           itemCount: controller.featuredProducts.length,
